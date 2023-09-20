@@ -21,9 +21,9 @@ export const adminJs = new AdminJS({
           colors: {
             primary100: '#fea000',
               primary80: '#ffb333',
-              primary60: '#ffcb73',
-              primary40: '#ffe1ad',
-                primary20: '#ffffff',
+              primary60: '#ffb73e',
+              primary40: '#ffcb73',
+                primary20: '#ffe1ad',
               grey100: '#151515',
               grey80: '#333333',
               grey60: '#4d4d4d',
