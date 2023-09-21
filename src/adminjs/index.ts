@@ -13,19 +13,19 @@ import { authtenticationOptions } from "./authentication";
 AdminJS.registerAdapter(AdminJSSequelize)
 
 export const adminJs = new AdminJS({
-    databases: [sequelize],
-    rootPath: "/admin",
-    resources: adminJsResources,
-    branding: brandingOptions,
-    locale: locale,
-    dashboard: dashboardOptions
+  databases: [sequelize],
+  rootPath: "/admin",
+  resources: adminJsResources,
+  branding: brandingOptions,
+  locale: locale,
+  dashboard: dashboardOptions
 })
 
 export const adminJsRouter = AdminJSExpress.buildAuthenticatedRouter(
-  adminJs, 
-  authtenticationOptions, 
-  null, 
-{
-	resave: false,
-	saveUninitialized: false
-})
+  adminJs,
+  authtenticationOptions,
+  null,
+  {
+    resave: false,
+    saveUninitialized: false
+  })

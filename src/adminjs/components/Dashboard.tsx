@@ -5,9 +5,9 @@ import { H1, H2, Table, TableHead, TableBody, TableRow, TableCell } from '@admin
 import { ApiClient, useCurrentAdmin } from 'adminjs'
 
 export default function Dashboard() {
-    const [currentAdmin] = useCurrentAdmin()
-    const [resources, setResources] = useState<{ [key: string]: number }>()
-    const api = new ApiClient()
+  const [currentAdmin] = useCurrentAdmin()
+  const [resources, setResources] = useState<{ [key: string]: number }>()
+  const api = new ApiClient()
 
   useEffect(() => {
     fetchDashboardData()
