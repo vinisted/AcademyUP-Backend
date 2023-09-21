@@ -5,7 +5,7 @@ import { sequelize } from "../database";
 import { adminJsResources } from "./resources";
 import { locale } from './locale';
 import { dashboardOptions } from "./dashboard";
-import { brandingOptions } from "./components/branding";
+import { brandingOptions } from "./branding";
 import { authtenticationOptions } from "./authentication";
 
 
