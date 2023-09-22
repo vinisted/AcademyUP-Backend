@@ -19,7 +19,6 @@ export const categoriesController = {
     }
   },
 
-  // GET /categories/:id
   show: async (req: Request, res: Response) => {
     const { id } = req.params
 
