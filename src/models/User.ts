@@ -21,6 +21,7 @@ export interface UserCreationAttributes
 export interface UserInstance
   extends Model<User, UserCreationAttributes>, User { }
 
+
 export const User = sequelize.define<UserInstance, User>('users', {
   id: {
     allowNull: false,
