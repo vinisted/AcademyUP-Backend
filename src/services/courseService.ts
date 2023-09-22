@@ -32,9 +32,9 @@ export const courseService = {
     getRandomFeaturedCourses: async () => {
         const featuredCourses = await Course.findAll({
             attributes: [
-                'id', 
-                'name', 
-                'synopsis', 
+                'id',
+                'name',
+                'synopsis',
                 ['thumbnail_url', 'thumbnailUrl']
             ],
             where: {
@@ -46,4 +46,13 @@ export const courseService = {
 
         return randomFeaturedCourses.slice(0, 3)
     },
+
+    getTopTenNewest: async () => {
+        const courses = await Course.findAll({
+            limit: 10,
+            order: [['created_at', 'DESC']]
+        })
+
+        return courses
+    }
 }
