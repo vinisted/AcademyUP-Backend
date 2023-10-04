@@ -1,5 +1,3 @@
-// src/database/migrations/XXXXXXXXXXXXXX-create-episodes-table.js
-
 'use strict';
 
 module.exports = {

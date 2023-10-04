@@ -1,5 +1,3 @@
-// src/database/migrations/XXXXXXXXXXXXXX-create-users-table
-
 'use strict';
 
 module.exports = {
