@@ -4,6 +4,7 @@ import { BrandingOptions } from 'adminjs'
 
 export const brandingOptions: BrandingOptions = {
   companyName: 'Academy Up',
+  favicon: '/favicon.svg',
   logo: '/academyup-logo.svg',
   theme: {
     colors: {
