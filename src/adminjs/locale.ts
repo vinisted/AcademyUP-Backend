@@ -37,7 +37,9 @@ export const locale: Locale = {
       courses: 'Cursos',
       episodes: 'Episódios',
       categories: 'Categorias',
-      users: 'Usuários'
+      users: 'Usuários',
+      favorites: 'Favoritos',
+      likes: 'Curtidas'
     },
     properties: {
       firstName: 'Primeiro Nome',
