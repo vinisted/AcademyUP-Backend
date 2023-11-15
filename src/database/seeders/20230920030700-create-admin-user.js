@@ -12,7 +12,7 @@ module.exports = {
       {
         first_name: 'Admin',
         last_name: 'User',
-        phone: '555-5555',
+        phone: '(55) 5 5555-5555',
         birth: '1990-01-01',
         email: 'admin@email.com',
         password: hashedPassword,
